@@ -31,6 +31,9 @@ form {
 	overflow: hidden;
 	border-radius: 8px;
 }
+.signup {
+	height: 530px !important;
+}
 .box::after {
 	content: "";
 	position: absolute;
