@@ -5,7 +5,7 @@ signupForm.addEventListener("submit", (event) => {
 
 	const formData = new FormData(signupForm);
 
-	fetch("/api/signup.php", {
+	fetch("http://localhost/SIGN-UP", {
 		method: "POST",
 		body: formData,
 	})
